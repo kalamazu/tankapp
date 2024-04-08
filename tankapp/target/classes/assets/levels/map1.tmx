@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="28" height="28" tilewidth="24" tileheight="24" infinite="0" nextlayerid="4" nextobjectid="179">
+ <tileset firstgid="1" name="set" tilewidth="24" tileheight="24" tilecount="3" columns="0">
+  <grid orientation="orthogonal" width="1" height="1"/>
+  <tile id="0">
+   <image width="24" height="24" source="../../../../../../../tankawr2/tankwar/demo/src/main/resources/assets/levels/brick.png"/>
+  </tile>
+  <tile id="1">
+   <image width="24" height="24" source="../../../../../../../tankawr2/tankwar/demo/src/main/resources/assets/levels/forest.png"/>
+  </tile>
+  <tile id="2">
+   <image width="24" height="24" source="../../../../../../../tankawr2/tankwar/demo/src/main/resources/assets/levels/stones.png"/>
+  </tile>
+ </tileset>
+ <tileset firstgid="4" name="set1" tilewidth="48" tileheight="24" tilecount="1" columns="0">
+  <grid orientation="orthogonal" width="1" height="1"/>
+  <tile id="0">
+   <image width="48" height="24" source="../../../../../../../tankawr2/tankwar/demo/src/main/resources/assets/levels/waves.png"/>
+  </tile>
+ </tileset>
+ <tileset firstgid="5" name="set2" tilewidth="48" tileheight="48" tilecount="1" columns="0">
+  <grid orientation="orthogonal" width="1" height="1"/>
+  <tile id="0">
+   <image width="48" height="48" source="../../../../../../../tankawr2/tankwar/demo/src/main/resources/assets/levels/flag.png"/>
+  </tile>
+ </tileset>
+ <objectgroup id="3" name="对象层 1" offsetx="61.5" offsety="-3">
+  <object id="10" type="sea" x="384" y="144" width="24" height="24"/>
+  <object id="11" type="sea" x="408" y="144" width="24" height="24"/>
+  <object id="12" type="sea" x="432" y="144" width="24" height="24"/>
+  <object id="13" type="sea" x="456" y="144" width="24" height="24"/>
+  <object id="14" type="border" x="0" y="0" width="672" height="24"/>
+  <object id="19" type="border" x="0" y="0" width="24" height="672"/>
+  <object id="20" type="border" x="0" y="648" width="672" height="24"/>
+  <object id="21" type="border" x="648" y="0" width="24" height="672"/>
+  <object id="152" type="brick" gid="1" x="264" y="288" width="24" height="24"/>
+  <object id="153" type="brick" gid="1" x="288" y="288" width="24" height="24"/>
+  <object id="154" type="brick" gid="1" x="360" y="288" width="24" height="24"/>
+  <object id="155" type="brick" gid="1" x="408" y="288" width="24" height="24"/>
+  <object id="156" type="brick" gid="1" x="312" y="288" width="24" height="24"/>
+  <object id="157" type="brick" gid="1" x="336" y="288" width="24" height="24"/>
+  <object id="158" type="brick" gid="1" x="384" y="288" width="24" height="24"/>
+  <object id="159" type="greens" gid="2" x="432" y="288" width="24" height="24"/>
+  <object id="160" type="greens" gid="2" x="456" y="288" width="24" height="24"/>
+  <object id="161" type="stone" gid="3" x="360" y="312" width="24" height="24"/>
+  <object id="162" type="stone" gid="3" x="336" y="312" width="24" height="24"/>
+  <object id="163" type="stone" gid="3" x="312" y="312" width="24" height="24"/>
+  <object id="167" type="sea" x="288" y="168" width="24" height="24"/>
+  <object id="168" type="sea" gid="4" x="384" y="192" width="48" height="24"/>
+  <object id="170" type="flag" gid="5" x="312" y="648" width="48" height="48"/>
+  <object id="171" type="brick" gid="1" x="288" y="648" width="24" height="24"/>
+  <object id="172" type="brick" gid="1" x="288" y="624" width="24" height="24"/>
+  <object id="173" type="brick" gid="1" x="288" y="600" width="24" height="24"/>
+  <object id="174" type="brick" gid="1" x="312" y="600" width="24" height="24"/>
+  <object id="175" type="brick" gid="1" x="336" y="600" width="24" height="24"/>
+  <object id="176" type="brick" gid="1" x="360" y="600" width="24" height="24"/>
+  <object id="177" type="brick" gid="1" x="360" y="624" width="24" height="24"/>
+  <object id="178" type="brick" gid="1" x="360" y="648" width="24" height="24"/>
+ </objectgroup>
+</map>
