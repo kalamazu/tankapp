@@ -55,8 +55,7 @@ public class App extends GameApplication
     {
         launch(args);
      
-        System.out.println("test for git");
-        System.out.println("加强版坦克大战");
+       
     }
 
     @Override
